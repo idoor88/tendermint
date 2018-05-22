@@ -75,7 +75,7 @@
 
 [[constraint]]
   name = "github.com/tendermint/go-crypto"
-  version = "~0.6.2"
+  branch = "bucky/merkle"
 
 [[constraint]]
   name = "github.com/tendermint/go-amino"
@@ -88,6 +88,11 @@
 [[constraint]]
   name = "google.golang.org/grpc"
   version = "~1.7.3"
+
+# this got updated and broke, so locked to an old working commit ...
+[[override]]
+  name = "google.golang.org/genproto"
+  revision = "7fd901a49ba6a7f87732eb344f6e3c5b19d1b200"
 
 [prune]
   go-tests = true
