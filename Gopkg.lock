@@ -265,7 +265,7 @@
     "merkle",
     "tmhash"
   ]
-  revision = "4663ffdf087b571e5ccbc0df5ec6a6b8ad36cce1"
+  revision = "a72adddde5828174345a90fb0c8c8f879137fe2f"
 
 [[projects]]
   name = "github.com/tendermint/go-wire"
